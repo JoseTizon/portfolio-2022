@@ -27,9 +27,65 @@
   height: 5px;
 }
 
-.aboutme-container{
+.home-container{
   display: flex;
   flex-direction: row;
+}
+
+.download-btn{
+  height: 3rem;
+  width: 8rem;
+}
+
+.aboutme{
+  padding: 4rem 2rem;
+}
+
+.skills-singles{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.skills-singles img{
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid var(--primary);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skills-singles img:hover{
+  background-color: var(--dark);
+}
+
+.single-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-cards img{
+  height: 10rem;
+}
+
+footer{
+  background-color: var(--second);
+  color: var(--dark);
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.ficons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ficons-container i{
+  margin: 5px 20px;
 }
 
 @media (max-width: 991px){
@@ -38,7 +94,7 @@
     margin-bottom: 2rem;
   }
 
-  .aboutme-container{
+  .home-container{
     display: flex;
     flex-direction: column;
   }
@@ -47,5 +103,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .ficons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .ficons-container i{
+    margin: 5px 20px;
   }
 }
