@@ -35,7 +35,7 @@ const Body = () => {
                 <p className='fs-3 mt-5'>Junior front-end developer, with solid knowledge in different languages to develop web pages from scratch with the most recent technologies.</p>
                 <div className='buttons-container'>
                     <Button variant="success" className='m-4' onClick={() => {() => handleClick('https://github.com/JoseTizon/portfolio-2022/raw/main/src/files/Jose%20Tizon%20-%20Front%20end%20Developer%202022%20(es).pdf', 'sample')}}><i className="fa-solid fa-file-arrow-down"></i> CV ENG</Button>
-                    <Button variant="success" className='m-4' href='../files/Jose Tizon - Front end Developer 2022 (es).pdf'><i className="fa-solid fa-file-arrow-down"></i> CV ESP</Button>
+                    <Button variant="success" className='m-4' href='https://github.com/JoseTizon/portfolio-2022/raw/main/src/files/Jose%20Tizon%20-%20Front%20end%20Developer%202022%20(es).pdf' target='_blank'><i className="fa-solid fa-file-arrow-down"></i> CV ESP</Button>
                 </div>
             </div>
             </div>
