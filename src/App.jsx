@@ -1,5 +1,4 @@
 import './App.css'
-import { HashRouter, Routes, Route } from 'react-router-dom'
 import Body from './components/Body'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
@@ -7,13 +6,11 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <HashRouter>
+    <div>
       <NavBar />
-      <Routes>
-        <Route path='/' element={<Body />} />
-      </Routes>
+      <Body />
       <Footer />
-    </HashRouter>
+    </div>
   )
 }
 
