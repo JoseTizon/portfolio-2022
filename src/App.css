@@ -70,6 +70,16 @@
   height: 10rem;
 }
 
+.portfolioBtn{
+  text-decoration: none;
+  color: var(--light);
+  padding: 3px;
+}
+
+.portfolioBtn:hover{
+  color: var(--light);
+}
+
 footer{
   background-color: var(--second);
   color: var(--dark);
@@ -86,6 +96,7 @@ footer{
 
 .ficons-container i{
   margin: 5px 20px;
+  color: var(--dark);
 }
 
 @media (max-width: 991px){

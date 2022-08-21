@@ -130,8 +130,8 @@ const Body = () => {
                             <Card.Text>
                             This web app will display a different motivational quote every time you refresh the page or click in the shuffle button.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://quotes-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/quotes" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -141,8 +141,8 @@ const Body = () => {
                             <Card.Text>
                             This web app will display your current location weather using a third-party API (location permissions will be requested).
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://weather-jt-app.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/weather-app" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -152,8 +152,8 @@ const Body = () => {
                             <Card.Text>
                             This wiki app allows you to visualize all the information from all the show characters based on their dimension id.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://rick-morty-wiki-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/rick-morty-wiki" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -163,8 +163,8 @@ const Body = () => {
                             <Card.Text>
                             With this app, you will be able to create, read, update, or delete users information. Data is saved in a third-party public API.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://users-crud-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/users-crud" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -174,8 +174,8 @@ const Body = () => {
                             <Card.Text>
                             This is my first app using react redux and react routes. Also, my first interactive pagination implementation.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://pokedex-jt.netlify.app/#/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/pokedex" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -185,8 +185,8 @@ const Body = () => {
                             <Card.Text>
                             Interactive website that allows you to keep track of your purchase history, linked to an API with all the products information.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'>Visit site</Button>
-                            <Button variant="primary" className='m-1'>Check repository</Button>
+                            <Button variant="primary" className='m-1'><a href="https://ecommerce-jpg-jat.netlify.app/#/" target="_blank" class="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/e-commerce" target="_blank" class="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                 </div>
