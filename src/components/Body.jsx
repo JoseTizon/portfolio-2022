@@ -14,7 +14,6 @@ import quotes from '../images/quotes-app.png'
 import rick from '../images/rick-app.png'
 import users from '../images/users-crud.png'
 import weather from '../images/weather-app.png'
-import Typewriter from 'typewriter-effect';
 import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
@@ -70,14 +69,7 @@ const Body = () => {
                     <img src={profile} alt="profile picture" className='profile-pic' /></div>
                 <div className='text-light fs-2'>
                     <h1 className='fs-1'>I'm Jose Tizon</h1>
-                    <Typewriter options={{
-                        autoStart: true,
-                        loop: true,
-                        strings: [
-                            'Front end Developer',
-                            'Web Developer'
-                        ]
-                    }} />
+                    <h2 className='fs-2'>Front end Web Developer</h2>
                     <div className='div-line'></div>
                     <p className='fs-3 mt-5'>Junior front-end developer, with solid knowledge in different languages to develop web pages from scratch with the most recent technologies.</p>
                     <div className='buttons-container'>
