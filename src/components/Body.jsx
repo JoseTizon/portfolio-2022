@@ -8,6 +8,7 @@ import router from '../images/reactrouter.png'
 import redux from '../images/redux.svg';
 import npm from '../images/npm.png';
 import git from '../images/git.png';
+import axios from '../images/axios.png'
 import ecommerce from '../images/ecommerce.png'
 import pokedex from '../images/pokedex.png'
 import quotes from '../images/quotes-app.png'
@@ -61,6 +62,11 @@ const Body = () => {
           Git
         </Tooltip>
     );
+    const renderAxios = (props) => (
+        <Tooltip id="button-tooltip" {...props}>
+          Axios
+        </Tooltip>
+    );
 
     return (
         <div>
@@ -93,22 +99,25 @@ const Body = () => {
                         <img src={css} alt="css logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderJs}>
-                        <img src={js} alt="html logo" />
+                        <img src={js} alt="js logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderReact}>
-                        <img src={react} alt="css logo" />
+                        <img src={react} alt="react logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderRouter}>
-                        <img src={router} alt="css logo" />
+                        <img src={router} alt="router logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderRedux}>
-                        <img src={redux} alt="html logo" />
+                        <img src={redux} alt="redux logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderNpm}>
-                        <img src={npm} alt="css logo" />
+                        <img src={npm} alt="npm logo" />
                     </OverlayTrigger>
                     <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderGit}>
-                        <img src={git} alt="html logo" />
+                        <img src={git} alt="git logo" />
+                    </OverlayTrigger>
+                    <OverlayTrigger placement="bottom" delay={{ show: 100, hide: 250 }} overlay={renderAxios}>
+                        <img src={axios} alt="axios logo" />
                     </OverlayTrigger>
                 </div>
             </div>
@@ -122,8 +131,8 @@ const Body = () => {
                             <Card.Text>
                             This web app will display a different motivational quote every time you refresh the page or click in the shuffle button.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://quotes-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/quotes" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://quotes-jt.netlify.app/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/quotes" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -133,8 +142,8 @@ const Body = () => {
                             <Card.Text>
                             This web app will display your current location weather using a third-party API (location permissions will be requested).
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://weather-jt-app.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/weather-app" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://weather-jt-app.netlify.app/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/weather-app" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -144,8 +153,8 @@ const Body = () => {
                             <Card.Text>
                             This wiki app allows you to visualize all the information from all the show characters based on their dimension id.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://rick-morty-wiki-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/rick-morty-wiki" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://rick-morty-wiki-jt.netlify.app/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/rick-morty-wiki" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -155,8 +164,8 @@ const Body = () => {
                             <Card.Text>
                             With this app, you will be able to create, read, update, or delete users information. Data is saved in a third-party public API.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://users-crud-jt.netlify.app/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/users-crud" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://users-crud-jt.netlify.app/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/users-crud" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -166,8 +175,8 @@ const Body = () => {
                             <Card.Text>
                             This is my first app using react redux and react routes. Also, my first interactive pagination implementation.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://pokedex-jt.netlify.app/#/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/pokedex" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://pokedex-jt.netlify.app/#/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/pokedex" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
@@ -177,8 +186,8 @@ const Body = () => {
                             <Card.Text>
                             Interactive website that allows you to keep track of your purchase history, linked to an API with all the products information.
                             </Card.Text>
-                            <Button variant="primary" className='m-1'><a href="https://ecommerce-jpg-jat.netlify.app/#/" target="_blank" class="portfolioBtn">Visit site</a></Button>
-                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/e-commerce" target="_blank" class="portfolioBtn">Check repository</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://ecommerce-jpg-jat.netlify.app/#/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/e-commerce" target="_blank" className="portfolioBtn">Check repository</a></Button>
                         </Card.Body>
                     </Card>
                 </div>
