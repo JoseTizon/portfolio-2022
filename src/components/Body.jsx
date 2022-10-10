@@ -11,6 +11,7 @@ import git from '../images/git.png';
 import axios from '../images/axios.png'
 import ecommerce from '../images/ecommerce.png'
 import pokedex from '../images/pokedex.png'
+import calculator from '../images/calculator.png'
 import quotes from '../images/quotes-app.png'
 import rick from '../images/rick-app.png'
 import users from '../images/users-crud.png'
@@ -124,6 +125,17 @@ const Body = () => {
             <div id='portfolio' className='bg-dark text-light'>
                 <h1 className='fs1 text-light m-4'>My Portfolio</h1>
                 <div className='single-cards'>
+                    <Card style={{ width: '18rem', margin: '1rem' }}>
+                        <Card.Img variant="top" src={calculator} />
+                        <Card.Body>
+                            <Card.Title>Calculator</Card.Title>
+                            <Card.Text>
+                            Web calculator created using only HTML5, CSS3 and JavaScript, including a function to change between dark and light mode.
+                            </Card.Text>
+                            <Button variant="primary" className='m-1'><a href="https://jt-calculator.netlify.app/" target="_blank" className="portfolioBtn">Visit site</a></Button>
+                            <Button variant="primary" className='m-1'><a href="https://github.com/JoseTizon/calculator" target="_blank" className="portfolioBtn">Check repository</a></Button>
+                        </Card.Body>
+                    </Card>
                     <Card style={{ width: '18rem', margin: '1rem' }}>
                         <Card.Img variant="top" src={quotes} />
                         <Card.Body>
